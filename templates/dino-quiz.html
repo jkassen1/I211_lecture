@@ -1,0 +1,66 @@
+<html>
+    <head>Dino Quiz</head>
+        <body>
+            <h1>Dino Quiz!</h1>
+            <form method="post" name="dino-quiz">
+            <fieldset>
+                <div>
+                    <legend>
+                        Dinosaur fossils have been found on all seven continents. 
+                        On which continent have the most dinosaur fossils been found?
+                    </legend>
+                    <select name="q1">
+                        <option>Africa</option>
+                        <option>Antartica</option>
+                        <option>Asia</option>
+                        <option>Europe</option>
+                        <option>North America</option>
+                        <option>South America</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="q2" >All dinosaurs hatch from eggs. True or false?</label>
+                    <ul>
+                        <li>
+                            <label for="true">True</label>
+                            <input type="radio" name="q2" value="true">
+                        </li>
+                        <li>
+                            <label for="false">False</label>
+                            <input type="radio" name="q2" value="false">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <label for="q3">Which of these dinosaurs are herbivores></label>
+                    <ul>
+                        <li>
+                            <label for="stegasaurus">Stegasaurus</label>
+                            <input id="stegasaurus" type="checkbox" name="q3" value="Stegasaurus">
+                        </li>
+                        <li>
+                            <label for="triceratops">Triceratops</label>
+                            <input id="triceratops" type="checkbox" name="q3" value="Triceratops">
+                        </li>
+                        <li>
+                            <label for="allosaurus">Allosaurus</label>
+                            <input id="allosaurus" type="checkbox" name="q3" value="Allosaurus">
+                        </li>
+                        <li>
+                            <label for="velociraptor">Velociraptor</label>
+                            <input id="velociraptor" type="checkbox" name="q3" value="Velociraptor">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <legend>DInosaurs went extinct:</legend>
+                    <input type="text" name="q4">Million years ago.
+                </div>
+                <div>
+                    <button type="reset" value="reset">Reset</button>
+                    <button type="submit" value="submit">Submit</button>
+                </div>
+            </fieldset>
+            </form>
+        </body>
+</html>
